@@ -42,6 +42,9 @@
 		4EAF0D592A18538E00989975 /* AppLocalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF0D582A18538E00989975 /* AppLocalized.swift */; };
 		4EAF0D5B2A18573700989975 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF0D5A2A18573700989975 /* Images.swift */; };
 		4EAF0D5D2A190F6200989975 /* HomeCoordinatorValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF0D5C2A190F6200989975 /* HomeCoordinatorValues.swift */; };
+		4EED25C12A1AC68C00D43823 /* CharacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C02A1AC68C00D43823 /* CharacterFactory.swift */; };
+		4EED25C42A1AD09900D43823 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C32A1AD09900D43823 /* CharacterViewController.swift */; };
+		4EED25C62A1AD30300D43823 /* CharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C52A1AD30300D43823 /* CharacterCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +104,9 @@
 		4EAF0D582A18538E00989975 /* AppLocalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocalized.swift; sourceTree = "<group>"; };
 		4EAF0D5A2A18573700989975 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		4EAF0D5C2A190F6200989975 /* HomeCoordinatorValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorValues.swift; sourceTree = "<group>"; };
+		4EED25C02A1AC68C00D43823 /* CharacterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFactory.swift; sourceTree = "<group>"; };
+		4EED25C32A1AD09900D43823 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		4EED25C52A1AD30300D43823 /* CharacterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +264,7 @@
 		4E0A18152A0C756F0073B861 /* Characters */ = {
 			isa = PBXGroup;
 			children = (
+				4EED25C22A1AD06200D43823 /* Presentation */,
 			);
 			path = Characters;
 			sourceTree = "<group>";
@@ -399,6 +406,7 @@
 			isa = PBXGroup;
 			children = (
 				4E0A18332A1143A70073B861 /* HomeCoordinator.swift */,
+				4EED25C52A1AD30300D43823 /* CharacterCoordinator.swift */,
 			);
 			path = CoordinatorSreens;
 			sourceTree = "<group>";
@@ -408,6 +416,7 @@
 			children = (
 				4E0A18312A0DC0980073B861 /* AppFactory.swift */,
 				4E0A18352A1144130073B861 /* HomeFactory.swift */,
+				4EED25C02A1AC68C00D43823 /* CharacterFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -573,6 +582,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		4EED25C22A1AD06200D43823 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4EED25C32A1AD09900D43823 /* CharacterViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -709,11 +726,13 @@
 				4E0A184B2A12F49E0073B861 /* LoadMenuUseCase.swift in Sources */,
 				4E0A182D2A0DBEDA0073B861 /* Coordinator.swift in Sources */,
 				4EAF0D412A16703600989975 /* ApiClientServiceImp.swift in Sources */,
+				4EED25C42A1AD09900D43823 /* CharacterViewController.swift in Sources */,
 				4E0A17E22A0C679A0073B861 /* HomeMenuController.swift in Sources */,
 				4E0A18422A12F3330073B861 /* MenuRepository.swift in Sources */,
 				4E0A183A2A1155270073B861 /* UIView+Constraints.swift in Sources */,
 				4EAF0D532A16C71300989975 /* SpinnerDisplayable.swift in Sources */,
 				4E0A18512A12F69E0073B861 /* StateController.swift in Sources */,
+				4EED25C62A1AD30300D43823 /* CharacterCoordinator.swift in Sources */,
 				4E0A18452A12F39F0073B861 /* MenuItem.swift in Sources */,
 				4EAF0D4E2A16957F00989975 /* PropertyItarator.swift in Sources */,
 				4E0A18532A12F7840073B861 /* itemHomeMenuViewModel.swift in Sources */,
@@ -735,6 +754,7 @@
 				4EAF0D3E2A166DCA00989975 /* ApiClientService.swift in Sources */,
 				4EAF0D4A2A16917500989975 /* MenuDTO.swift in Sources */,
 				4EAF0D572A16F97D00989975 /* MessageDisplayable.swift in Sources */,
+				4EED25C12A1AC68C00D43823 /* CharacterFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
