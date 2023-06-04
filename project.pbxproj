@@ -63,6 +63,7 @@
 		4EE321832A281CDC007F9A74 /* ItemCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321822A281CDC007F9A74 /* ItemCharacterViewModel.swift */; };
 		4EE321862A281EEE007F9A74 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321852A281EEE007F9A74 /* BaseViewModel.swift */; };
 		4EE321882A28FB9E007F9A74 /* UITableViewController+SpinnerLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321872A28FB9E007F9A74 /* UITableViewController+SpinnerLast.swift */; };
+		4EE3218A2A2CF013007F9A74 /* LastPageValidationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321892A2CF013007F9A74 /* LastPageValidationUseCase.swift */; };
 		4EED25C12A1AC68C00D43823 /* CharacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C02A1AC68C00D43823 /* CharacterFactory.swift */; };
 		4EED25C42A1AD09900D43823 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C32A1AD09900D43823 /* CharacterViewController.swift */; };
 		4EED25C62A1AD30300D43823 /* CharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C52A1AD30300D43823 /* CharacterCoordinator.swift */; };
@@ -146,6 +147,7 @@
 		4EE321822A281CDC007F9A74 /* ItemCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCharacterViewModel.swift; sourceTree = "<group>"; };
 		4EE321852A281EEE007F9A74 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		4EE321872A28FB9E007F9A74 /* UITableViewController+SpinnerLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewController+SpinnerLast.swift"; sourceTree = "<group>"; };
+		4EE321892A2CF013007F9A74 /* LastPageValidationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPageValidationUseCase.swift; sourceTree = "<group>"; };
 		4EED25C02A1AC68C00D43823 /* CharacterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFactory.swift; sourceTree = "<group>"; };
 		4EED25C32A1AD09900D43823 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		4EED25C52A1AD30300D43823 /* CharacterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCoordinator.swift; sourceTree = "<group>"; };
@@ -710,6 +712,7 @@
 			isa = PBXGroup;
 			children = (
 				4EE3217C2A2815C7007F9A74 /* LoadCharactersUseCase.swift */,
+				4EE321892A2CF013007F9A74 /* LastPageValidationUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -893,6 +896,7 @@
 				4E0A18422A12F3330073B861 /* MenuRepository.swift in Sources */,
 				4E0A183A2A1155270073B861 /* UIView+Constraints.swift in Sources */,
 				4EE3216C2A217BF1007F9A74 /* LocationDTO.swift in Sources */,
+				4EE3218A2A2CF013007F9A74 /* LastPageValidationUseCase.swift in Sources */,
 				4EE321542A1EDA5C007F9A74 /* ItemCharacterTableViewCell.swift in Sources */,
 				4EE321812A281BA9007F9A74 /* CharacterViewModel.swift in Sources */,
 				4EE321672A2179C4007F9A74 /* CharacterDTO.swift in Sources */,
