@@ -78,6 +78,7 @@
 		4EE321A92A353DF5007F9A74 /* CharacterDetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321A82A353DF5007F9A74 /* CharacterDetailRepository.swift */; };
 		4EE321AC2A353F20007F9A74 /* CharacterDetailRepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321AB2A353F20007F9A74 /* CharacterDetailRepositoryImp.swift */; };
 		4EE321AF2A354119007F9A74 /* CharacterDTO+Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321AE2A354119007F9A74 /* CharacterDTO+Mapper.swift */; };
+		4EE321B22A362FF5007F9A74 /* LoadCharacterDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE321B12A362FF5007F9A74 /* LoadCharacterDetailUseCase.swift */; };
 		4EED25C12A1AC68C00D43823 /* CharacterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C02A1AC68C00D43823 /* CharacterFactory.swift */; };
 		4EED25C42A1AD09900D43823 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C32A1AD09900D43823 /* CharacterViewController.swift */; };
 		4EED25C62A1AD30300D43823 /* CharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED25C52A1AD30300D43823 /* CharacterCoordinator.swift */; };
@@ -176,6 +177,7 @@
 		4EE321A82A353DF5007F9A74 /* CharacterDetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailRepository.swift; sourceTree = "<group>"; };
 		4EE321AB2A353F20007F9A74 /* CharacterDetailRepositoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailRepositoryImp.swift; sourceTree = "<group>"; };
 		4EE321AE2A354119007F9A74 /* CharacterDTO+Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterDTO+Mapper.swift"; sourceTree = "<group>"; };
+		4EE321B12A362FF5007F9A74 /* LoadCharacterDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCharacterDetailUseCase.swift; sourceTree = "<group>"; };
 		4EED25C02A1AC68C00D43823 /* CharacterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterFactory.swift; sourceTree = "<group>"; };
 		4EED25C32A1AD09900D43823 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		4EED25C52A1AD30300D43823 /* CharacterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCoordinator.swift; sourceTree = "<group>"; };
@@ -819,6 +821,7 @@
 		4EE321A52A353D6E007F9A74 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				4EE321B02A362FBD007F9A74 /* UseCases */,
 				4EE321A72A353D87007F9A74 /* RepositoriesInterface */,
 			);
 			path = Domain;
@@ -855,6 +858,14 @@
 				4EE321AE2A354119007F9A74 /* CharacterDTO+Mapper.swift */,
 			);
 			path = DTO;
+			sourceTree = "<group>";
+		};
+		4EE321B02A362FBD007F9A74 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				4EE321B12A362FF5007F9A74 /* LoadCharacterDetailUseCase.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		4EED25C22A1AD06200D43823 /* Presentation */ = {
@@ -1004,6 +1015,7 @@
 				4EAF0D502A169E5E00989975 /* EndPoint.swift in Sources */,
 				4E0A18322A0DC0980073B861 /* AppFactory.swift in Sources */,
 				4E0A183C2A11A6D40073B861 /* Reusable.swift in Sources */,
+				4EE321B22A362FF5007F9A74 /* LoadCharacterDetailUseCase.swift in Sources */,
 				4E0A184B2A12F49E0073B861 /* LoadMenuUseCase.swift in Sources */,
 				4E0A182D2A0DBEDA0073B861 /* Coordinator.swift in Sources */,
 				4EAF0D412A16703600989975 /* ApiClientServiceImp.swift in Sources */,
