@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E09F7E22A539ABB00F59E68 /* OriginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09F7E12A539ABB00F59E68 /* OriginRepository.swift */; };
+		4E09F7E52A539BF500F59E68 /* OriginRepositoryImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09F7E42A539BF500F59E68 /* OriginRepositoryImplementation.swift */; };
+		4E09F7EA2A539EC100F59E68 /* OriginDTO+Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09F7E92A539EC100F59E68 /* OriginDTO+Mapper.swift */; };
+		4E09F7ED2A539FD300F59E68 /* LoadOriginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09F7EC2A539FD300F59E68 /* LoadOriginUseCase.swift */; };
+		4E09F7F12A53A2DC00F59E68 /* OriginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E09F7F02A53A2DC00F59E68 /* OriginViewModel.swift */; };
 		4E0A17DE2A0C679A0073B861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A17DD2A0C679A0073B861 /* AppDelegate.swift */; };
 		4E0A17E02A0C679A0073B861 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A17DF2A0C679A0073B861 /* SceneDelegate.swift */; };
 		4E0A17E22A0C679A0073B861 /* HomeMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0A17E12A0C679A0073B861 /* HomeMenuController.swift */; };
@@ -139,6 +144,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E09F7E12A539ABB00F59E68 /* OriginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginRepository.swift; sourceTree = "<group>"; };
+		4E09F7E42A539BF500F59E68 /* OriginRepositoryImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginRepositoryImplementation.swift; sourceTree = "<group>"; };
+		4E09F7E92A539EC100F59E68 /* OriginDTO+Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OriginDTO+Mapper.swift"; sourceTree = "<group>"; };
+		4E09F7EC2A539FD300F59E68 /* LoadOriginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadOriginUseCase.swift; sourceTree = "<group>"; };
+		4E09F7F02A53A2DC00F59E68 /* OriginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginViewModel.swift; sourceTree = "<group>"; };
 		4E0A17DA2A0C679A0073B861 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0A17DD2A0C679A0073B861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E0A17DF2A0C679A0073B861 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -282,6 +292,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E09F7DE2A539A2900F59E68 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4E09F7E62A539E6F00F59E68 /* DTO */,
+				4E09F7E32A539BC200F59E68 /* RepositoryImplementation */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4E09F7DF2A539A3200F59E68 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4E09F7EB2A539FAD00F59E68 /* UseCase */,
+				4E09F7E02A539A5700F59E68 /* RepositoryInterface */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4E09F7E02A539A5700F59E68 /* RepositoryInterface */ = {
+			isa = PBXGroup;
+			children = (
+				4E09F7E12A539ABB00F59E68 /* OriginRepository.swift */,
+			);
+			path = RepositoryInterface;
+			sourceTree = "<group>";
+		};
+		4E09F7E32A539BC200F59E68 /* RepositoryImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				4E09F7E42A539BF500F59E68 /* OriginRepositoryImplementation.swift */,
+			);
+			path = RepositoryImplementation;
+			sourceTree = "<group>";
+		};
+		4E09F7E62A539E6F00F59E68 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				4E09F7E92A539EC100F59E68 /* OriginDTO+Mapper.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		4E09F7EB2A539FAD00F59E68 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				4E09F7EC2A539FD300F59E68 /* LoadOriginUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		4E09F7EE2A53A29B00F59E68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EC1228E2A40AF0400A931C5 /* OriginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E09F7EF2A53A2A300F59E68 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E09F7F02A53A2DC00F59E68 /* OriginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4E0A17D12A0C679A0073B861 = {
 			isa = PBXGroup;
 			children = (
@@ -453,6 +529,8 @@
 		4E0A18192A0C75CC0073B861 /* Origin */ = {
 			isa = PBXGroup;
 			children = (
+				4E09F7DE2A539A2900F59E68 /* Data */,
+				4E09F7DF2A539A3200F59E68 /* Domain */,
 				4EC1228D2A40AEE700A931C5 /* Presentation */,
 			);
 			path = Origin;
@@ -869,7 +947,8 @@
 		4EC1228D2A40AEE700A931C5 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				4EC1228E2A40AF0400A931C5 /* OriginViewController.swift */,
+				4E09F7EE2A53A29B00F59E68 /* View */,
+				4E09F7EF2A53A2A300F59E68 /* ViewModel */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -1366,6 +1445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E09F7EA2A539EC100F59E68 /* OriginDTO+Mapper.swift in Sources */,
 				4EE3215D2A20388C007F9A74 /* Specie.swift in Sources */,
 				4EE3218C2A2EAF79007F9A74 /* RemoteImageDataService.swift in Sources */,
 				4EE321962A2EBD9A007F9A74 /* ImageDataRepositoryImp.swift in Sources */,
@@ -1387,6 +1467,7 @@
 				4EAF0D412A16703600989975 /* ApiClientServiceImp.swift in Sources */,
 				4EED25C42A1AD09900D43823 /* CharacterViewController.swift in Sources */,
 				4E0A17E22A0C679A0073B861 /* HomeMenuController.swift in Sources */,
+				4E09F7E22A539ABB00F59E68 /* OriginRepository.swift in Sources */,
 				4EBBFFD92A4BBA1A00953632 /* Episode.swift in Sources */,
 				4E0A18422A12F3330073B861 /* MenuRepository.swift in Sources */,
 				4EE321A92A353DF5007F9A74 /* CharacterDetailRepository.swift in Sources */,
@@ -1418,6 +1499,7 @@
 				4EAF0D552A16C88C00989975 /* ViewValues.swift in Sources */,
 				4E0A18302A0DBF9C0073B861 /* AppCoordinator.swift in Sources */,
 				4EBBFFD02A4BB47400953632 /* EpisodesViewController.swift in Sources */,
+				4E09F7F12A53A2DC00F59E68 /* OriginViewModel.swift in Sources */,
 				4EE321832A281CDC007F9A74 /* ItemCharacterViewModel.swift in Sources */,
 				4E0A17DE2A0C679A0073B861 /* AppDelegate.swift in Sources */,
 				4EC122A52A40F99900A931C5 /* LocationsRepositoryImp.swift in Sources */,
@@ -1434,6 +1516,7 @@
 				4EAF0D472A167E5F00989975 /* HttpResponseStatus.swift in Sources */,
 				4EC122872A40A4F700A931C5 /* LocationDetailFactory.swift in Sources */,
 				4EAF0D592A18538E00989975 /* AppLocalized.swift in Sources */,
+				4E09F7ED2A539FD300F59E68 /* LoadOriginUseCase.swift in Sources */,
 				4EBBFFDF2A4BBCC700953632 /* ResultEpisodeDTO+Mapper.swift in Sources */,
 				4E0A184F2A12F60A0073B861 /* HomeMenuViewModel.swift in Sources */,
 				4EE321932A2EBCA3007F9A74 /* ImageDataRepository.swift in Sources */,
@@ -1445,6 +1528,7 @@
 				4EC1228C2A40AB8600A931C5 /* LocationDetailViewController.swift in Sources */,
 				4EE3219B2A2FFEE6007F9A74 /* AppContainer.swift in Sources */,
 				4EBBFFCA2A4BABF600953632 /* EpisodesFactory.swift in Sources */,
+				4E09F7E52A539BF500F59E68 /* OriginRepositoryImplementation.swift in Sources */,
 				4EAF0D4C2A16948500989975 /* MenuDTO+Mapper.swift in Sources */,
 				4EE321612A203EBD007F9A74 /* Location.swift in Sources */,
 				4E0A18382A11532F0073B861 /* ItemHomeMenuCell.swift in Sources */,
